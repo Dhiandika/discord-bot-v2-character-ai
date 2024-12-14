@@ -1,0 +1,11 @@
+discord-bot-v2/
+├── .env
+├── package.json
+├── package-lock.json
+├── src/
+│   ├── index.js
+│   ├── geminiAI.js
+│   └── commands/
+│       └── aiCommand.js
+├── README.md
+└── node_modules/

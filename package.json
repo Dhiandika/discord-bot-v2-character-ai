@@ -1,0 +1,34 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "discord-bot-with-node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bun run index.js",
+    "start-dev": "nodemon index.js"
+  },
+  "author": "Dhiandika",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/storage": "^7.14.0",
+    "@google-cloud/vision": "^4.3.2",
+    "@google/generative-ai": "^0.21.0",
+    "@hapi/hapi": "^21.3.12",
+    "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7",
+    "ffmpeg": "^0.0.4",
+    "firebase-admin": "^11.11.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.1",
+    "fs": "^0.0.1-security",
+    "image-js": "^0.35.6",
+    "nodemailer": "^6.9.7",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
